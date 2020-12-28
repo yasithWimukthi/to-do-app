@@ -1,11 +1,21 @@
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends Component {
+
+  state ={
+    todos:[
+      {id:1, content : 'buy milk'},
+      {id:2, content : 'play mario kart'}
+    ]
+  }
+
+  render() {
+    return (
+      <div>
+        
+      </div>
+    )
+  }
 }
 
 export default App;
